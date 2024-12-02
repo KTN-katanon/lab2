@@ -3,9 +3,12 @@ import Hello from './components/HelloComponent.vue'
 import TemplateSyntax from './components/TemplateSyntax.vue'
 import ReactiveFundamentals from './components/ReactivityFundamentals.vue'
 import FormInputBindings from './components/FormInputBindings.vue'
+import HelloMyName from './components/HelloMyName.vue'
 </script>
 
 <template>
+  <HelloMyName></HelloMyName>
+  <hr />
   <FormInputBindings></FormInputBindings>
   <hr />
   <ReactiveFundamentals></ReactiveFundamentals>
@@ -18,6 +21,4 @@ import FormInputBindings from './components/FormInputBindings.vue'
   <hr />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
