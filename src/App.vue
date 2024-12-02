@@ -1,9 +1,11 @@
 <script setup>
+import Hello from './components/HelloComponent.vue'
 
 </script>
 
 <template>
-<div></div>
+<div>Hello</div>
+<span><Hello></Hello></span>
 </template>
 
 <style scoped>
