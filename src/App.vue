@@ -4,9 +4,12 @@ import TemplateSyntax from './components/TemplateSyntax.vue'
 import ReactiveFundamentals from './components/ReactivityFundamentals.vue'
 import FormInputBindings from './components/FormInputBindings.vue'
 import HelloMyName from './components/HelloMyName.vue'
+import MyPlus from './components/MyPlus.vue'
 </script>
 
 <template>
+  <MyPlus></MyPlus>
+  <hr />
   <HelloMyName></HelloMyName>
   <hr />
   <FormInputBindings></FormInputBindings>
